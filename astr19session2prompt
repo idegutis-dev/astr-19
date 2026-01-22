@@ -1,0 +1,11 @@
+a = 2 
+b = 3 
+print(a + b)
+
+x = 6
+y = 5 
+print(x - y) 
+
+m = 6 
+n = 7
+print(m * n)
