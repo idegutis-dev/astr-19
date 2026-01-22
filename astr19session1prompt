@@ -1,0 +1,10 @@
+full_name = "Iris DeGutis"
+pronouns = "she/her"
+
+favorite_movie_sentence = "My favorite movie is Everything Everywhere All At Once."
+favorite_food_sentence = "My favorite food is pad thai."
+
+print(full_name)
+print(pronouns)
+print(favorite_movie_sentence)
+print(favorite_food_sentence)
