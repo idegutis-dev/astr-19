@@ -1,0 +1,14 @@
+import numpy as np
+from tabulate import tabulate
+
+def main():
+    
+    x_values = np.linspace(0, 2 * np.pi, 1000)
+    y_values = np.sin(x_values)
+    
+    table = list(zip(x_values, y_values))
+
+    print(tabulate(table, headers=["x", "sin(x)"], floatfmt=".6f"))
+
+if __name__ == "__main__":
+    main()
